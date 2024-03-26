@@ -5,7 +5,7 @@
       "type": "Frontend WebApp",
       "subtitle": "Design",
       "techStack": ["Figma", "Photoshop"],
-      "image": "public/projects/urbex.webp",
+      "image": "/projects/urbex.webp",
       "link": "https://urbx.io"
     },
     {
@@ -14,7 +14,7 @@
       "type": "Frontend WebApp + Landing",
       "subtitle": "Design & Dev",
       "techStack": ["Vite", "React", "Node", "Tailwind"],
-      "image": "public/projects/homespotter.webp",
+      "image": "/projects/homespotter.webp",
       "link": "https://homespotter.app"
     },
     {
@@ -23,7 +23,7 @@
       "type": "Web",
       "subtitle": "Design & Dev",
       "techStack": ["Vite", "React", "Node", "Tailwind"],
-      "image": "public/projects/cedano.webp",
+      "image": "/projects/cedano.webp",
       "link": "https://cedanoestudio.cl"
     }
   ]
