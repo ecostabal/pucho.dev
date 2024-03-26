@@ -10,7 +10,7 @@ export const NotFound = () => {
           href="/"
           className="font-exo2 uppercase tracking-widest text-xs border border-zinc-900 text-zinc-900 p-4 hover:bg-zinc-900 hover:text-white flex items-center justify-center transition-all duration-300 ease-in-out w-52"
         >
-          <span>Volver</span>
+          <span>Volver al Inicio</span>
           <ArrowLongRightIcon className="ml-2 h-4 w-4" />
         </a>
       </div>
