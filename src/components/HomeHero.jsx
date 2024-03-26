@@ -81,7 +81,7 @@ function HomeHero() {
                 </a>
                 </div>
             </div>
-            <div className="absolute top-1/2 transform -translate-y-1/2 right-8 flex flex-col items-center space-y-6">
+            <div className="absolute top-1/2 transform -translate-y-1/2 right-4 md:right-8 flex flex-col items-center space-y-6">
                 {[...Array(projects.length)].map((_, index) => (
                     <div
                         key={index}
@@ -93,7 +93,7 @@ function HomeHero() {
                     ></div>
                 ))}
             </div>
-            <div className="absolute bottom-8 left-8 flex space-x-4">
+            <div className="absolute bottom-4 left-4 md:bottom-8 md:left-8 flex space-x-4">
                 <button onClick={goToPreviousProject} className="border p-4 rounded-full hover:border-yellow-600 transition-colors duration-300">
                     <ArrowLongLeftIcon className="text-white h-4 w-4" />
                 </button>
