@@ -6,7 +6,7 @@ export const Home = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <div className="h-screen max-h-screen overflow-hidden flex items-center justify-center relative">
+    <div className="h-screen max-h-screen overflow-hidden flex items-center justify-center relative w-full">
       <HomeHero />
       <div className="absolute top-1/2 transform -translate-y-1/2 rotate-0 left-[-11rem] md:left-[-9.5rem]">
         <SocialMediaLinks />
