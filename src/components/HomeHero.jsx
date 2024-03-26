@@ -65,7 +65,7 @@ function HomeHero() {
             <p className="font-exo2 text-xs uppercase tracking-widest flex justify-center">
                 {projects[currentProject].techStack.map((tech, index) => (
                     <React.Fragment key={index}>
-                    <img src={techStackIcons[tech]} alt={tech} className="w-5 h-5 mx-4" />
+                    <img src={techStackIcons[tech]} alt={tech} className="w-4 h-4 md:w-5 md:h-5 mx-4" />
                     </React.Fragment>
                 ))}
                 </p>   

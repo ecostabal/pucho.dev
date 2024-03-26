@@ -20,7 +20,7 @@
     {
       "id": 3,
       "title": "Cedano Estudio",
-      "type": "Web",
+      "type": "WebApp",
       "subtitle": "Design & Dev",
       "techStack": ["Vite", "React", "Node", "Tailwind"],
       "image": "/projects/cedano.webp",

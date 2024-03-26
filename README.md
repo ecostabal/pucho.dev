@@ -3,7 +3,7 @@
 Create your own project based on this template by running:
 
 ```bash
-npx degit ecostabal/malaga-propiedades
+npx degit ecostabal/pucho-dev
 ```
 
 ## Install
@@ -31,6 +31,5 @@ Preview:
 ```bash
 npm run preview
 ```
-# malaga-propiedades
-# cedano-estudio
+
 # pucho.dev
