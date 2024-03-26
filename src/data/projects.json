@@ -1,0 +1,30 @@
+[
+    {
+      "id": 1,
+      "title": "Urbex",
+      "type": "Frontend WebApp",
+      "subtitle": "Design",
+      "techStack": ["Figma", "Photoshop"],
+      "image": "public/projects/urbex.webp",
+      "link": "https://urbx.io"
+    },
+    {
+      "id": 2,
+      "title": "HomeSpotter",
+      "type": "Frontend WebApp + Landing",
+      "subtitle": "Design & Dev",
+      "techStack": ["Vite", "React", "Node", "Tailwind"],
+      "image": "public/projects/homespotter.webp",
+      "link": "https://homespotter.app"
+    },
+    {
+      "id": 3,
+      "title": "Cedano Estudio",
+      "type": "Web",
+      "subtitle": "Design & Dev",
+      "techStack": ["Vite", "React", "Node", "Tailwind"],
+      "image": "public/projects/cedano.webp",
+      "link": "https://cedanoestudio.cl"
+    }
+  ]
+  
