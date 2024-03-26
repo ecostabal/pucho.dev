@@ -94,13 +94,13 @@ function HomeHero() {
                 ))}
             </div>
             <div className="absolute bottom-4 left-4 md:bottom-8 md:left-8 flex space-x-4">
-                <button onClick={goToPreviousProject} className="border p-4 rounded-full hover:border-yellow-600 transition-colors duration-300">
+                <button onClick={goToPreviousProject} className="border p-2 md:p-4 rounded-full hover:border-yellow-600 transition-colors duration-300">
                     <ArrowLongLeftIcon className="text-white h-4 w-4" />
                 </button>
-                <button onClick={togglePlayPause} className={`border p-4 rounded-full hover:border-yellow-600 transition-colors duration-300 ${isPlaying ? 'border-dashed border-spin border-yellow-600' : ''}`}>
+                <button onClick={togglePlayPause} className={`border p-2 md:p-4 rounded-full hover:border-yellow-600 transition-colors duration-300 ${isPlaying ? 'border-dashed border-spin border-yellow-600' : ''}`}>
                     {isPlaying ? <BounceLoader className='h-4 w-4' color="#ffc72c" size={16} /> : <PlayIcon className="text-white h-4 w-4" />}
                 </button>
-                <button onClick={goToNextProject} className="border p-4 rounded-full hover:border-yellow-600 transition-colors duration-300">
+                <button onClick={goToNextProject} className="border p-2 md:p-4 rounded-full hover:border-yellow-600 transition-colors duration-300">
                     <ArrowLongRightIcon className="text-white h-4 w-4" />
                 </button>
             </div>
