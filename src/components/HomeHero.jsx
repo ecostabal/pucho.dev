@@ -81,11 +81,11 @@ function HomeHero() {
                 </a>
                 </div>
             </div>
-            <div className="absolute top-1/2 transform -translate-y-1/2 right-4 md:right-8 flex flex-col items-center space-y-6">
+            <div className="absolute top-1/2 transform -translate-y-1/2 right-4 md:right-8 flex flex-col items-center space-y-4">
                 {[...Array(projects.length)].map((_, index) => (
                     <div
                         key={index}
-                        className={`w-3 h-3 rounded-full ${index === currentProject ? 'bg-yellow-600 ring-4 ring-yellow-600/20' : 'border w-2 h-2 border-white'}`}
+                        className={`w-2 h-2 rounded-full ${index === currentProject ? 'bg-yellow-600 ring-4 ring-yellow-600/20' : 'border w-1 h-1 border-white'}`}
                         style={{
                             transition: 'transform 0.3s ease-in-out',
                             transform: index === currentProject ? 'scale(1.2)' : 'scale(1)'
