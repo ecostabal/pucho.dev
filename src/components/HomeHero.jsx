@@ -71,12 +71,12 @@ function HomeHero() {
                 </p>   
                 <div>
                     <h1 className="font-exo2 text-3xl md:text-7xl uppercase font-bold">{projects[currentProject].title}</h1>
-                    <h2 className="font-exo2 text-3xl md:text-5xl uppercase text-white/20 font-light italic">{projects[currentProject].subtitle}</h2>
+                    <h2 className="font-exo2 text-3xl md:text-5xl uppercase font-semibold text-white/20 font-light italic">{projects[currentProject].subtitle}</h2>
                 </div>
                 <p className="font-exo2 text-xs uppercase tracking-widest font-semibold text-yellow-600">{projects[currentProject].type}</p>                       
                 <div className="flex justify-center">
                 <a href={projects[currentProject].link} target="_blank" rel="noopener noreferrer" className="font-exo2 uppercase tracking-widest text-xs border text-white p-4 hover:bg-white hover:text-zinc-900 flex items-center justify-center transition-all duration-300 ease-in-out">
-                    <span>Ver Proyecto</span>
+                    <span>View Project</span>
                     <ArrowLongRightIcon className="ml-2 h-4 w-4" />
                 </a>
                 </div>
