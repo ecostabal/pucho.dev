@@ -18,7 +18,7 @@ export const Home = () => {
       <img
         src="logoblanco.svg"
         alt="Logo"
-        className="absolute top-4 left-4 md:top-8 md:left-8 w-auto h-6 sm:h-8"
+        className="absolute top-5 left-5 md:top-8 md:left-8 w-auto h-4 sm:h-5"
       />
       <div className="font-exo2 absolute bottom-4 right-4 md:bottom-8 md:right-8 text-white text-xs uppercase tracking-widest">
         © pucho.dev - {currentYear}
