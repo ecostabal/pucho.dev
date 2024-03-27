@@ -13,7 +13,7 @@ export const Home = () => {
         <SocialMediaLinks />
       </div>
       <UserIcon
-        className="absolute w-6 h-6 text-white top-4 right-4 md:top-8 md:right-8 hover:text-yellow-600 cursor-pointer"
+        className="absolute w-6 h-6 text-white top-4 right-4 md:top-8 md:right-8 hover:text-yellow-500 cursor-pointer"
       />
       <img
         src="logoblanco.svg"
