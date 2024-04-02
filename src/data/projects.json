@@ -2,7 +2,7 @@
     {
       "id": 1,
       "title": "Urbex",
-      "type": "Frontend Web App",
+      "type": "Branding + Frontend Web App",
       "subtitle": "Design",
       "techStack": ["Figma", "Photoshop"],
       "image": "/projects/urbex.webp",
@@ -11,9 +11,9 @@
     {
       "id": 2,
       "title": "HomeSpotter",
-      "type": "Frontend Web App + Landing",
+      "type": "Branding + Frontend Web App + Landing",
       "subtitle": "Design & Dev",
-      "techStack": ["Vite", "React", "Node", "Tailwind"],
+      "techStack": ["Figma", "Vite", "React", "Node", "Tailwind"],
       "image": "/projects/homespotter.webp",
       "link": "https://homespotter.app"
     },
